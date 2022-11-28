@@ -4,7 +4,7 @@ import me.fizzika.music.sound.AbstractSound;
 
 public class Silence extends AbstractSound {
 
-    protected Silence(double duration) {
+    public Silence(double duration) {
         super(duration);
     }
 
